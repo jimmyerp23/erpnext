@@ -7,7 +7,7 @@ app_color = "#e74c3c"
 app_email = "info@erpnext.com"
 app_license = "GNU General Public License (v3)"
 source_link = "https://github.com/frappe/erpnext"
-app_logo_url = "/assets/erpnext/images/erpnext-logo.svg"
+app_logo_url = "/assets/erpnext/images/frappe-framework-logo-jin.png"
 
 
 develop_version = "14.x.x-develop"
@@ -35,6 +35,7 @@ override_whitelisted_methods = {
 welcome_email = "erpnext.setup.utils.welcome_email"
 
 # setup wizard
+
 setup_wizard_requires = "assets/erpnext/js/setup_wizard.js"
 setup_wizard_stages = "erpnext.setup.setup_wizard.setup_wizard.get_setup_stages"
 setup_wizard_test = "erpnext.setup.setup_wizard.test_setup_wizard.run_setup_wizard_test"
@@ -85,8 +86,10 @@ calendars = [
 website_generators = ["Item Group", "Website Item", "BOM", "Sales Partner"]
 
 website_context = {
-	"favicon": "/assets/erpnext/images/erpnext-favicon.svg",
-	"splash_image": "/assets/erpnext/images/erpnext-logo.svg",
+#	"favicon": "/assets/erpnext/images/erpnext-favicon.svg",
+#	"splash_image": "/assets/erpnext/images/erpnext-logo.svg",
+	"favicon": "/assets/erpnext/images/frappe-framework-logo-jin.png",
+	"splash_image": "/assets/erpnext/images/frappe-framework-logo-jin.png"
 }
 
 # nosemgrep
